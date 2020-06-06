@@ -1,0 +1,13 @@
+ion-toolbar{
+	padding-bottom: 5px !important;
+}
+ion-title{
+	text-align: center;
+	padding: 0px 5px;
+}
+div.ion-page{
+	margin-top: 30px;
+}
+.header_space{
+	margin-top: 60px;
+}

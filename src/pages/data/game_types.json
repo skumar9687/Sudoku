@@ -1,0 +1,15 @@
+[{
+	"game_types":[{
+		"gametype_id":1,
+		"gametype_name":"2x3",
+		"gametype_levels": []
+	},{
+		"gametype_id":2,
+		"gametype_name":"3x3",
+		"gametype_levels":["Easy","Intermediate","Expert"]
+	},{
+		"gametype_id":3,
+		"gametype_name":"3x4",
+		"gametype_levels":[]
+	}]
+}]
