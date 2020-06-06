@@ -1,0 +1,121 @@
+ion-title{
+	text-align: center;
+	padding: 5px 5px 2px;
+}
+.home_icon{
+	width: 25px;
+	height: 25px;
+}
+.settings_icon{
+	width: 25px;
+	height: 25px;
+}
+.timer_icon{
+	width: 14px;
+	height: 14px;
+}
+.header_space{
+	margin-top: 60px;
+}
+.pagediv{
+	float: left;
+	width: 100%;
+	height: 100%;
+	display: none;
+}
+.show_pagediv{
+	display: inline-block;
+}
+.hide{
+	display: none !important;
+}
+.hiddenVis{
+	visibility: hidden !important; 
+}
+
+/* STATISTICS SECTION */
+#pagediv_statistics ion-grid{
+	width: 95%;
+	max-width: 400px;
+	border-right: 0px;
+	border-bottom: 0px;
+	padding: 0px;
+	font-size:14px;
+}
+#pagediv_statistics ion-row:first-child{
+	font-weight: bold;
+}
+#pagediv_statistics ion-col{
+	width: 17%;
+	float:left;
+	padding:4px 0px 5px 2px;
+	text-align:center;
+	border:1px solid #cccccc;
+}
+#pagediv_statistics ion-row ion-col:last-child{
+	width: 32%;
+}
+
+/* PUZZLE SECTION */
+#pagediv_puzzle ion-grid{
+	width: 95%;
+	max-width: 400px;
+	border:2px solid #000000;
+	border-right: 0px;
+	border-bottom: 0px;
+	padding: 0px;
+}
+#pagediv_puzzle ion-col{
+	width:28px;
+	float:left;
+	padding:4px 0px 5px 2px;
+	text-align:center;
+	border:1px solid #cccccc;
+}
+#pagediv_puzzle .gridborderrow {
+    border-bottom: 2px solid #000;
+}
+.highlight {
+	background-color: #EAEFF1;
+}
+#pagediv_puzzle .gridbordercol {
+    border-right: 2px solid #000;
+}
+.options_div{
+	float: left;
+	width: 100%;
+	text-align: center;
+	margin: 10px;
+}
+.numbers_div{
+	margin-top:20px;
+	float: left;
+	width: 100%;
+}
+.eachnumber_div{
+	display: inline-flex;
+    margin: 0px 3px 10px;
+    background: #000000;
+    color: #ffffff;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.gameresult_div{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	background: rgba(0,0,0,0.95);
+	z-index: 10;
+}
+.gameresult{
+	position: relative;
+	top: 100px;
+	text-align: center;
+}
+.gameresult h1{
+	font-weight: bold;
+}
+/* *************** */
